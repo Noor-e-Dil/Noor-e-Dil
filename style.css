@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf5;
+  color: #333;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #ffb6c1;
+  padding: 20px;
+  border-bottom: 3px solid #e99;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #6a1b9a;
+}
+header p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Sections */
+section {
+  padding: 30px 20px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+section h2 {
+  font-size: 1.8rem;
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+/* Quote Box */
+.quote-box {
+  background: #fce4ec;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Contact Links */
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact ul li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+.contact ul li a {
+  text-decoration: none;
+  background: #6a1b9a;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.contact ul li a:hover {
+  background: #4a0072;
+}
+
+/* Footer */
+footer {
+  background: #6a1b9a;
+  color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+}
+
