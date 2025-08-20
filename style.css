@@ -1,88 +1,69 @@
-/* Reset */
-body, h1, h2, p, ul {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  direction: rtl; /* Urdu text right aligned */
 }
 
-/* Navigation Bar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(45deg, #d16ba5, #86a8e7, #5ffbf1);
-  padding: 10px 20px;
+body {
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
 }
 
-.navbar .logo {
+header {
+  background: #ff77a9;
   color: white;
-  font-size: 20px;
+  padding: 15px 20px;
+  text-align: center;
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
+header h1 {
+  margin-bottom: 10px;
 }
 
-.navbar ul li {
+nav a {
+  color: white;
   margin: 0 10px;
-}
-
-.navbar ul li a {
-  color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
 }
 
-.navbar ul li a:hover {
-  color: yellow;
+nav a:hover {
+  text-decoration: underline;
 }
 
-/* Hero Section */
 .hero {
   text-align: center;
-  padding: 50px 20px;
-  background: #f7f7f7;
+  padding: 60px 20px;
+  background: #fff0f5;
 }
 
-.hero h1 {
-  font-size: 30px;
-  color: #444;
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 18px;
-  color: #666;
+  margin-bottom: 20px;
 }
 
-/* Quotes Section */
-.quotes {
-  text-align: center;
-  background: #fff3e6;
-  padding: 30px 20px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.btn {
+  background: #ff77a9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
 }
 
-.quotes h2 {
-  color: #d35400;
-  margin-bottom: 15px;
+.btn:hover {
+  background: #ff4d88;
 }
 
-.quotes p {
-  font-size: 18px;
-  color: #333;
-  font-style: italic;
-}
-
-/* Footer */
 footer {
   text-align: center;
   padding: 15px;
-  background: #222;
+  background: #ff77a9;
   color: white;
   margin-top: 20px;
 }
