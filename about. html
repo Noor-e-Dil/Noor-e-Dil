@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Noor-e-Dil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌸 Noor-e-Dil 🌸</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>About Noor-e-Dil</h2>
+      <p>
+        Noor-e-Dil is a humble space where light meets the heart.  
+        A journey of love, peace, spirituality, and soulful connection ✨  
+        Here we share positivity, duas, and reflections of life 🌸
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Noor-e-Dil | Made with ❤️</p>
+  </footer>
+</body>
+</html>
