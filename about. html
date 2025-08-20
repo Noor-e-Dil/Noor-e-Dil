@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noor-e-Dil | About</title>
+  <title>About - Noor-e-Dil</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>About Noor-e-Dil</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h2>About Me</h2>
-    <p>یہ ویب سائٹ صرف سیکھنے اور تخلیق کے شوق کے لیے بنائی گئی ہے۔</p>
-  </main>
+  <nav>
+    <h1>Noor-e-Dil</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="about">
+    <h2>About Noor-e-Dil</h2>
+    <p>Noor-e-Dil is a journey of spirituality, love, and connection.  
+    A platform to spread positivity, peace, and light of the heart 💖</p>
+  </section>
 </body>
 </html>
