@@ -1,18 +1,9 @@
-// Page load hone par message
-window.onload = function() {
-    console.log("Welcome to Noor-e-Dil Website 💖");
-};
-
-// Example: Button click event
-function sayHello() {
-    alert("السلام علیکم! 🌸 Noor-e-Dil ki duniya mein خوش آمدید");
-}
-
-// Example: Simple color change animation
-let colors = ["#ff9999", "#99ccff", "#ccffcc", "#ffff99"];
-let i = 0;
-
-setInterval(function() {
-    document.body.style.backgroundColor = colors[i];
-    i = (i + 1) % colors.length;
-}, 5000);
+// Highlight active page link
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll("nav ul li a");
+  links.forEach(link => {
+    if (link.href === window.location.href) {
+      link.classList.add("active");
+    }
+  });
+});
