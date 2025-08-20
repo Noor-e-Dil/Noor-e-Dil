@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>Contact Me</h1>
+    <h1>Contact Noor-e-Dil</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -17,14 +17,15 @@
       </ul>
     </nav>
   </header>
-
   <main>
-    <h2>Stay Connected</h2>
-    <p><strong>WhatsApp:</strong> +923306141991</p>
-    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/noor.e.dil786">noor.e.dil786</a></p>
-    <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@noor.e.dil786">@noor.e.dil786</a></p>
-    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/15th9Hijg6/">Noor-e-Dil</a></p>
-    <p><strong>Email:</strong> <a href="mailto:dilnoore13@gmail.com">dilnoore13@gmail.com</a></p>
+    <h2>Get in Touch</h2>
+    <div class="contact-info">
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/923306141991" target="_blank">+92 330 6141991</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/noor.e.dil786" target="_blank">noor.e.dil786</a></p>
+      <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@noor.e.dil786" target="_blank">@noor.e.dil786</a></p>
+      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/15th9Hijg6/" target="_blank">Profile</a></p>
+      <p><strong>Email:</strong> <a href="mailto:dilnoore13@gmail.com">dilnoore13@gmail.com</a></p>
+    </div>
   </main>
 </body>
 </html>
