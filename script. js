@@ -1,69 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+// Page load hone par message
+window.onload = function() {
+    console.log("Welcome to Noor-e-Dil Website 💖");
+};
+
+// Example: Button click event
+function sayHello() {
+    alert("السلام علیکم! 🌸 Noor-e-Dil ki duniya mein خوش آمدید");
 }
 
-body {
-  background: #fdfdfd;
-  color: #333;
-  line-height: 1.6;
-}
+// Example: Simple color change animation
+let colors = ["#ff9999", "#99ccff", "#ccffcc", "#ffff99"];
+let i = 0;
 
-header {
-  background: #ff77a9;
-  color: white;
-  padding: 15px 20px;
-  text-align: center;
-}
-
-header h1 {
-  margin-bottom: 10px;
-}
-
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: #fff0f5;
-}
-
-.hero h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  margin-bottom: 20px;
-}
-
-.btn {
-  background: #ff77a9;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #ff4d88;
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #ff77a9;
-  color: white;
-  margin-top: 20px;
-}
+setInterval(function() {
+    document.body.style.backgroundColor = colors[i];
+    i = (i + 1) % colors.length;
+}, 5000);
