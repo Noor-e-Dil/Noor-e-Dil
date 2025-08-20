@@ -3,29 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noor-e-Dil | Contact</title>
+  <title>Contact - Noor-e-Dil</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Contact Noor-e-Dil</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h2>Get in Touch</h2>
-    <div class="contact-info">
-      <p><strong>WhatsApp:</strong> <a href="https://wa.me/923306141991" target="_blank">+92 330 6141991</a></p>
-      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/noor.e.dil786" target="_blank">noor.e.dil786</a></p>
-      <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@noor.e.dil786" target="_blank">@noor.e.dil786</a></p>
-      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/15th9Hijg6/" target="_blank">Profile</a></p>
-      <p><strong>Email:</strong> <a href="mailto:dilnoore13@gmail.com">dilnoore13@gmail.com</a></p>
-    </div>
-  </main>
+  <nav>
+    <h1>Noor-e-Dil</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li><strong>WhatsApp:</strong> <a href="https://wa.me/923306141991" target="_blank">+923306141991</a></li>
+      <li><strong>Instagram:</strong> <a href="https://www.instagram.com/noor.e.dil786" target="_blank">noor.e.dil786</a></li>
+      <li><strong>TikTok:</strong> <a href="https://www.tiktok.com/@noor.e.dil786" target="_blank">@noor.e.dil786</a></li>
+      <li><strong>Facebook:</strong> <a href="https://www.facebook.com/share/15th9Hijg6/" target="_blank">Noor-e-Dil</a></li>
+      <li><strong>Email:</strong> <a href="mailto:dilnoore13@gmail.com">dilnoore13@gmail.com</a></li>
+    </ul>
+  </section>
 </body>
 </html>
