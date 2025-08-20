@@ -3,39 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Noor-e-Dil</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #fefefe;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    .contact-links a {
-      display: block;
-      margin: 10px 0;
-      text-decoration: none;
-      color: #0077cc;
-      font-size: 18px;
-    }
-    .contact-links a:hover {
-      color: #ff6600;
-    }
-  </style>
+  <title>Noor-e-Dil | Contact</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Contact Me</h1>
-  <p>آپ مجھ سے ان ذرائع کے ذریعے رابطہ کر سکتے ہیں:</p>
-  
-  <div class="contact-links">
-    <a href="https://wa.me/923306141991" target="_blank">📱 WhatsApp</a>
-    <a href="https://www.instagram.com/noor.e.dil786?igsh=MWF3aHdwejBjaTZ6Mw==" target="_blank">📸 Instagram</a>
-    <a href="https://www.tiktok.com/@noor.e.dil786?_t=ZS-8ypYSzRUyjI&_r=1" target="_blank">🎵 TikTok</a>
-    <a href="https://www.facebook.com/share/15th9Hijg6/" target="_blank">📘 Facebook</a>
-    <a href="mailto:dilnoore13@gmail.com">📧 Email</a>
-  </div>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Stay Connected</h2>
+    <p><strong>WhatsApp:</strong> +923306141991</p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/noor.e.dil786">noor.e.dil786</a></p>
+    <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@noor.e.dil786">@noor.e.dil786</a></p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/15th9Hijg6/">Noor-e-Dil</a></p>
+    <p><strong>Email:</strong> <a href="mailto:dilnoore13@gmail.com">dilnoore13@gmail.com</a></p>
+  </main>
 </body>
 </html>
